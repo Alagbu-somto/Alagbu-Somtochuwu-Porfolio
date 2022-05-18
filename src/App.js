@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import NavBar from "./components/NarBar";
+import Intro from "./components/Intro";
+import Projects from "./components/Projects";
+import About from "./components/About";
+import GetInTouch from "./components/GetInTouch";
+import Services from "./components/Services";
+import Snowflakes from "magic-snowflakes";
+import Footer from "./components/Footer";
 function App() {
+  const snowflakes = new Snowflakes({ zIndex: -10, count: 7 });
+  snowflakes.start();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Intro />
+      <About />
+      <Services />
+      <Projects />
+      <GetInTouch />
+      <Footer />
+    </>
   );
 }
 
