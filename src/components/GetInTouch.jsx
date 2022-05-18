@@ -20,7 +20,7 @@ function GetInTouch() {
           </a>
         </button>
         <button>
-          <a href="mailto:s.alagbu@gmail.com">
+          <a href="https://api.whatsapp.com/send?phone=2347055348234">
             Let's chat <AiOutlineWhatsApp />
           </a>
         </button>
