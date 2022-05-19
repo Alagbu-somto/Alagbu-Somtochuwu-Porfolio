@@ -1,8 +1,8 @@
 import projectImage from "../images/headphones_b_1.webp";
 import projectImage1 from "../images/1652857468144.jpg";
 import projectImage2 from "../images/x-sLGYaQ_stMM-unsplash.jpg";
-import projectImage3 from "../images/vadim-bogulov-MfBnqUOz_qY-unsplash.jpg";
-import { SlideUp, SlideLeft, ScaleOnhover } from "./Animate";
+import projectImage3 from "../images/1648585472468.jpg";
+import { SlideUp, SlideLeft } from "./Animate";
 import { GrSend } from "react-icons/gr";
 import { AiOutlineGithub } from "react-icons/ai";
 

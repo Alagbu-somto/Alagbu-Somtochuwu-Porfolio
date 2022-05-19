@@ -68,7 +68,13 @@ function Services() {
         <RotateXaxis>
           <ShadowOnHover>
             <div className="service-box">
-              <div>Icon</div>
+              <div>
+                {" "}
+                <CgFigma
+                  style={{ color: "white", fontSize: "40px" }}
+                  className="mx-3 mt-3 m"
+                />
+              </div>
               <h3>UI & UX Design</h3>
               <p>
                 I create beautiful wireFrames and UI Designs for your product
