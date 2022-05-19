@@ -8,24 +8,22 @@ function About() {
           <img src={profileImage} alt="" />
         </SlideLeft>
       </div>
-      <div className="">
+      <div className="about-text">
         <SlideUp>
           <h3>About Me</h3>
           <h2>Who I Am __</h2>
           <p>
-            My journey as a full-stact developer started with playing around
-            with wordpress, my love for exporing and learing new things about
-            the Tech industry drove me to keep picking up new skills untill i
-            landed myself at the position of a full-stack developer.
+            I'm Alagbu Somtochukwu a talentend curiousity-driven fullStack
+            developer with a love to explore and try out new things and new
+            tools. I love building beautiful and responsive UI designs and
+            animations that makes for a good user experience. I care about
+            details, writing clean code and customer satisfaction.
           </p>
         </SlideUp>
         <SlideUp>
           <p>
-            As a full-stack engineer and web developer i enjoy building
-            robust,secured and scalable applications, i love building
-            beutiful,responsive UI designs and animations that makes for a good
-            user experience,I also enjoy coding the logic side of things and I'm
-            well experieced in backend technologies and API development.
+            I also enjoy building robust,secured and scalable applications and
+            I'm well experieced in backend technologies and API development.
           </p>
         </SlideUp>
       </div>

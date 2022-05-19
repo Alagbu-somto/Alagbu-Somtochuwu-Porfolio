@@ -1,3 +1,5 @@
+// CgFigma
+import { CgFigma } from "react-icons/cg";
 import {
   FaReact,
   FaNode,
@@ -14,6 +16,7 @@ import {
   SiMongodb,
   SiRedux,
   SiExpress,
+  SiVisualstudiocode,
 } from "react-icons/si";
 import { AiOutlineGithub } from "react-icons/ai";
 
@@ -23,7 +26,7 @@ function Services() {
     <section className="services-section">
       <SlideLeft>
         <h3>My Services | Skills | Tools</h3>
-        <h2>What I Do __</h2>
+        <h2>What I Do ---</h2>
       </SlideLeft>
       <div className="service-container">
         <RotateXaxis>
@@ -56,7 +59,7 @@ function Services() {
               <h3>Back-end development</h3>
               <p>
                 I write clean and efficient code, providing logical solutions
-                and build out server side logic to meet my clients needs. My
+                and building out server side logic to meet my clients needs. My
                 goal is to provide buisness solutions for my clients .
               </p>
             </div>
@@ -68,10 +71,10 @@ function Services() {
               <div>Icon</div>
               <h3>UI & UX Design</h3>
               <p>
-                I can help you create wireFrames and UI Designs for your product
+                I create beautiful wireFrames and UI Designs for your product
                 and business needs. I enjoy designing part-time too, my design
                 process is really simple, I Idealize, Visualize then Create and
-                sometimes Code as well.
+                Most times Code as well.
               </p>
             </div>
           </ShadowOnHover>
@@ -80,6 +83,24 @@ function Services() {
       <section>
         <h2>My Stack & Tools __</h2>
         <div className="skill-box">
+          <ScaleOnhover>
+            <div>
+              <CgFigma
+                style={{ color: "white", fontSize: "40px" }}
+                className="mx-3 mt-3 m"
+              />
+              <p>Figma</p>
+            </div>
+          </ScaleOnhover>
+          <ScaleOnhover>
+            <div>
+              <SiVisualstudiocode
+                style={{ color: "white", fontSize: "40px" }}
+                className="mx-3 mt-3 m"
+              />
+              <p>Visual studio code</p>
+            </div>
+          </ScaleOnhover>
           <ScaleOnhover>
             <div>
               <FaReact
@@ -162,7 +183,7 @@ function Services() {
             </div>
           </ScaleOnhover>
           <ScaleOnhover>
-            <div className="">
+            <div>
               <SiMongodb
                 style={{ color: "white", fontSize: "40px" }}
                 className="mx-3 mt-3"

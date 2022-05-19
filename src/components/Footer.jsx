@@ -20,7 +20,7 @@ function Footer() {
         <AiFillTwitterCircle style={{ color: "#fff", fontSize: "20px" }} />
       </a>
 
-      <p class="text-center pb-3 small">© 2022 ALAGBU SOMTOCHUKWU.</p>
+      <p>© 2022 MADE BY ALAGBU SOMTOCHUKWU.</p>
     </footer>
   );
 }

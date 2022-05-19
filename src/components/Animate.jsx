@@ -104,8 +104,8 @@ function RotateXaxis({ children }) {
       initial="hidden"
       transition={{ duration: 0.8, delay: 0.2 }}
       variants={{
-        visible: { rotateY: 360 },
-        hidden: { rotateY: 0 },
+        visible: { rotateY: 360, rotateX: 0, rotateZ: 0 },
+        hidden: { rotateY: 1, rotateX: 1, rotateZ: 1 },
       }}
     >
       {children}

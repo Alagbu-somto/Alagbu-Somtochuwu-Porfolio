@@ -12,8 +12,9 @@ function Intro() {
             <h1>I'm ALagbu Somtochukwu</h1>
             <h3>Full-Stack Develover</h3>
             <p>
-              I'm an Experiened Full-Stack developer and am passionate about the
-              UI designs and the logic side of coding.
+              I'm an Experiened Full-Stack developer and am passionate about
+              building beautiful UI designs, User intereactions and solving
+              logical problem through code.
             </p>
             <button>
               <a href="#work">View my work</a>

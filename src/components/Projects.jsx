@@ -10,8 +10,10 @@ function Projects() {
   return (
     <section className="project-section" id="work">
       <SlideLeft>
-        <h3>My Work</h3>
-        <h2>Some Things I’ve Built</h2>
+        <div className="project-title">
+          <h3>My Work</h3>
+          <h2>Some Things I’ve Built</h2>
+        </div>
       </SlideLeft>
       <SlideUp>
         <div className="project-container">
@@ -19,17 +21,17 @@ function Projects() {
             <h3>E-commerce Store</h3>
             <div>
               <p>
-                I built an E-commerce store for eletronics goods to help my
-                friend push his electronics business a bit further.
+                I built an eletronics ecommerce store for a client friend to
+                help him promote his buisness on the web.
               </p>
               <p>
-                <b>Nextjs Sanity</b>
+                <b>Nextjs, Sanity</b>
               </p>
               <a href="https://github.com/Alagbu-somto/E-commerce-website">
-                <AiOutlineGithub style={{ fontSize: "20px" }} />
+                <AiOutlineGithub style={{ fontSize: "25px" }} />
               </a>
               <a href="https://e-commerce-webstore.vercel.app/">
-                <GrSend style={{ fontSize: "20px" }} />
+                <GrSend style={{ fontSize: "25px" }} />
               </a>
             </div>
           </div>
@@ -47,18 +49,18 @@ function Projects() {
             <h3>Real-estate</h3>
             <div>
               <p>
-                I really love the real-estate industry so built a web app that
+                I love the real-estate industry, so I built a web app that
                 allows you to search diffrent apartments according to your
                 needs.
               </p>
               <p>
-                <b>Nextjs ChakraUI API</b>
+                <b>Nextjs, ChakraUI API</b>
               </p>
               <a href="https://github.com/Alagbu-somto/Real-estate">
-                <AiOutlineGithub style={{ fontSize: "20px" }} />
+                <AiOutlineGithub style={{ fontSize: "25px" }} />
               </a>
               <a href="https://real-estate-two-nu.vercel.app/">
-                <GrSend style={{ fontSize: "20px" }} />
+                <GrSend style={{ fontSize: "25px" }} />
               </a>
             </div>
           </div>
@@ -67,20 +69,20 @@ function Projects() {
       <SlideUp>
         <div className="project-container">
           <div className="project-text ">
-            <h3>Mark-Up Template Site</h3>
+            <h3>MakeUp Template Site</h3>
             <div>
               <p>
-                I built a simple, beautiful make-Up site to help my friend
-                promote her makeUp buisness.
+                I created a builtiful sigle-page makeUP site template to help a
+                client promote her buiness.
               </p>
               <p>
-                <b>Nextjs Tailwind</b>
+                <b>Nextjs, Tailwind</b>
               </p>
               <a href="https://github.com/Alagbu-somto/makeUP-Template-site">
-                <AiOutlineGithub style={{ fontSize: "20px" }} />
+                <AiOutlineGithub style={{ fontSize: "25px" }} />
               </a>
               <a href="https://repo-beige.vercel.app/">
-                <GrSend style={{ fontSize: "20px" }} />
+                <GrSend style={{ fontSize: "25px" }} />
               </a>
             </div>
           </div>
@@ -98,17 +100,17 @@ function Projects() {
             <h3>Qiuz Game</h3>
             <div>
               <p>
-                I find games very intresting so i decided to build a game that
+                I find games very intresting, so i decided to build a game that
                 can be fun and educative at thesame time.
               </p>
               <p>
-                <b>React Typescript Ant-design API</b>
+                <b>React, Typescript, Ant-design, API</b>
               </p>
               <a href="https://github.com/Alagbu-somto/QiuzGame">
-                <AiOutlineGithub style={{ fontSize: "20px" }} />
+                <AiOutlineGithub style={{ fontSize: "28px" }} />
               </a>
               <a href="https://magnificent-truffle-1418fd.netlify.app/">
-                <GrSend style={{ fontSize: "20px" }} />
+                <GrSend style={{ fontSize: "28px" }} />
               </a>
             </div>
           </div>

@@ -122,8 +122,9 @@ button a {
   width: 250px;
   margin: 10px;
 }
-.about-img-container + div {
+.about-text {
   width: 50%;
+  background-color: #06113c;
 }
 .about-container p {
   line-height: 1.5;
@@ -150,6 +151,7 @@ button a {
 .services-section {
   text-align: center;
   margin: 6rem auto;
+  overflow-x: hidden;
 }
 .service-container {
   display: flex;
@@ -184,6 +186,13 @@ button a {
   text-align: center;
   margin: 5rem auto;
   min-width: 200px;
+  position: relative;
+}
+.project-title {
+  position: absolute;
+  top: -130px;
+  margin: 0, auto;
+  width: 100%;
 }
 .project-container {
   display: flex;
@@ -363,6 +372,10 @@ footer {
     border-left: solid 15px transparent;
   }
   .project-container {
-    margin: 160px 10px;
+    margin: 200px 10px;
+  }
+  .service-box {
+    width: 250px;
+    height: 380px;
   }
 }
