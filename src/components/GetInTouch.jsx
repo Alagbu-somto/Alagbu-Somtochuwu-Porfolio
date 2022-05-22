@@ -10,10 +10,10 @@ function GetInTouch() {
       <SlideUp>
         <p>
           I am currently open to new opportunities, freelancing jobs, to work on
-          your projects and bring your ideas to life. Am also open to relocation
-          if need be, I will be glad to help you out, building out amazing
-          solution for your buisness needs . I'll be looking forward to hearing
-          from you.
+          your projects and bring your ideas to life. I'm also open to
+          relocation if need be, I will be glad to help you out, building out
+          amazing solutions for your buisness needs . I'll be looking forward to
+          hearing from you.
         </p>
         <button>
           <a href="mailto:s.alagbu@gmail.com">

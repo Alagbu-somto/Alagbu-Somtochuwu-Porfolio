@@ -9,12 +9,12 @@ function Intro() {
         <div className="intro">
           <FadeInWhenVisible>
             <h3>Hi !</h3>
-            <h1>I'm ALagbu Somtochukwu</h1>
-            <h3>Full-Stack Develover</h3>
+            <h1>I'm Alagbu Somtochukwu</h1>
+            <h3>Full-Stack Developer</h3>
             <p>
-              I'm an Experiened Full-Stack developer and am passionate about
-              building beautiful UI designs, User intereactions and solving
-              logical problem through code.
+              I'm an Experiened Full-Stack developer and I'm passionate about
+              building beautiful UI designs, User interactions and solving
+              logical problems with code.
             </p>
             <button>
               <a href="#work">View my work</a>

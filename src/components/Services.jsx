@@ -26,7 +26,7 @@ function Services() {
     <section className="services-section">
       <SlideLeft>
         <h3>My Services | Skills | Tools</h3>
-        <h2>What I Do ---</h2>
+        <h2>What I Do __</h2>
       </SlideLeft>
       <div className="service-container">
         <RotateXaxis>

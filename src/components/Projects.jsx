@@ -21,8 +21,8 @@ function Projects() {
             <h3>E-commerce Store</h3>
             <div>
               <p>
-                I built an eletronics ecommerce store for a client friend to
-                help him promote his buisness on the web.
+                I built an eletronics ecommerce store for a client to help him
+                promote his buisness on the web.
               </p>
               <p>
                 <b>Nextjs, Sanity</b>
@@ -72,7 +72,7 @@ function Projects() {
             <h3>MakeUp Template Site</h3>
             <div>
               <p>
-                I created a builtiful sigle-page makeUP site template to help a
+                I created a builtiful single-page makeUP site template to help a
                 client promote her buiness.
               </p>
               <p>
