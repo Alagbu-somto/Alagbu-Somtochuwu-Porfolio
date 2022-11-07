@@ -13,17 +13,19 @@ function Intro() {
             <h3>Full-Stack Developer</h3>
             <p>
               I'm an Experiened Full-Stack developer and I'm passionate about
-              building beautiful UI designs, User interactions and solving
-              logical problems with code.
+              building beautiful UI designs, User interactions and building out
+              robust and scalable applications.
             </p>
             <button>
               <a href="#work">View my work</a>
             </button>
           </FadeInWhenVisible>
         </div>
-        <FadeInWhenVisible1>
-          <img src={introTech} alt="" />
-        </FadeInWhenVisible1>
+        <div>
+          <FadeInWhenVisible1>
+            <img src={introTech} alt="" />
+          </FadeInWhenVisible1>
+        </div>
       </div>
     </section>
   );

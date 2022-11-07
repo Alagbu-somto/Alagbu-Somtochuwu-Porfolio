@@ -7,6 +7,7 @@ import {
   FaBootstrap,
   FaHtml5,
   FaCss3,
+  FaPython,
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -17,6 +18,7 @@ import {
   SiRedux,
   SiExpress,
   SiVisualstudiocode,
+  SiFlutter,
 } from "react-icons/si";
 import { AiOutlineGithub } from "react-icons/ai";
 
@@ -58,9 +60,9 @@ function Services() {
               </div>
               <h3>Back-end development</h3>
               <p>
-                I write clean and efficient code, providing logical solutions
-                and building out server side logic to meet my clients needs. My
-                goal is to provide buisness solutions for my clients .
+                I write clean and efficient code, building out API endpoints and
+                server side logic to meet my clients needs. My goal is to
+                provide buisness solutions for my clients .
               </p>
             </div>
           </ShadowOnHover>
@@ -69,18 +71,16 @@ function Services() {
           <ShadowOnHover>
             <div className="service-box">
               <div>
-                {" "}
-                <CgFigma
+                <SiFlutter
                   style={{ color: "white", fontSize: "40px" }}
                   className="mx-3 mt-3 m"
                 />
               </div>
-              <h3>UI & UX Design</h3>
+              <h3>Mobile Development</h3>
               <p>
-                I create beautiful wireFrames and UI Designs for your product
-                and business needs. I enjoy designing part-time too, my design
-                process is really simple, I Idealize, Visualize then Create and
-                Most times Code as well.
+                I build very simple cross-platform application using some of the
+                latest technologies and frame works such as React-native,
+                flutter, andriod studio etc.
               </p>
             </div>
           </ShadowOnHover>
@@ -231,6 +231,24 @@ function Services() {
                 className="mx-3 mt-3"
               />
               <p>Git&Github</p>
+            </div>
+          </ScaleOnhover>
+          <ScaleOnhover>
+            <div>
+              <FaPython
+                style={{ color: "white", fontSize: "40px" }}
+                className="mx-3 mt-3"
+              />
+              <p>Python</p>
+            </div>
+          </ScaleOnhover>
+          <ScaleOnhover>
+            <div>
+              <SiFlutter
+                style={{ color: "white", fontSize: "40px" }}
+                className="mx-3 mt-3"
+              />
+              <p>Flutter</p>
             </div>
           </ScaleOnhover>
         </div>
